@@ -1,0 +1,9 @@
+scripts:
+  - name: ngg dev
+    command: npm ngg
+    triggers: 
+      - session.create
+      - session.archive
+automation:
+  auto_issue_session: true
+  remote_control: true
