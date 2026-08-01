@@ -26,8 +26,8 @@ doskey clean=dotnet clean
 doskey git-status=git status
 doskey git-log=git log --oneline -10
 doskey git-branch=git branch -a
-doskey git-pull=git pull origin mainss
-doskey git-push=git push origin mainss
+doskey git-pull=git pull origin main
+doskey git-push=git push origin main
 
 @echo.
 @echo.

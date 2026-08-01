@@ -40,8 +40,8 @@ Set-Alias -Name cdhome -Value {Set-Location C:\Users\ahmad\RiderProjects\battlel
 function git-status {git status}
 function git-log {git log --oneline -10}
 function git-branch {git branch -a}
-function git-pull {git pull origin mainss}
-function git-push {git push origin mainss}
+function git-pull {git pull origin main}
+function git-push {git push origin main}
 function git-commit {
     param([string]$message = "Update")
     git add .

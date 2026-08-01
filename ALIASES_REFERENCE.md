@@ -69,8 +69,8 @@ open-project       # Open in Rider
 git-status         # git status
 git-log            # Last 10 commits
 git-branch         # List all branches
-git-pull           # Pull from mainss
-git-push           # Push to mainss
+git-pull           # Pull from main
+git-push           # Push to main
 git-commit "msg"   # Commit with co-author trailer
 ```
 
